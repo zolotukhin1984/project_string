@@ -30,7 +30,8 @@ class Sentence
     {
         $words = preg_split(
             '/[^0-9a-zA-Zа-яА-ЯёЁ]+/ui',
-            $this->content, -1,
+            $this->content,
+            -1,
             PREG_SPLIT_OFFSET_CAPTURE | PREG_SPLIT_NO_EMPTY
         );
 

@@ -67,7 +67,7 @@ class Word
     /**
      * @return string
      */
-        public function invert(): string
+    public function invert(): string
     {
         $invertContent = $this->characters;
 
